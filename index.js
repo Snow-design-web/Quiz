@@ -1,6 +1,6 @@
 const quizQuestions = [
     {
-        question: 'What am I called?',
+        question: 'What is my nickname?',
         a: 'Snow',
         b: 'Sand',
         c: 'Selman',
@@ -10,9 +10,9 @@ const quizQuestions = [
         question: 'How old am I?',
         a: '22',
         b: '23',
-        c: '25',
-        d: '26',
-        answer: 'd'
+        c: '28',
+        d: '27',
+        answer: 'c'
     }, {
         question: 'What state was I born?',
         a: 'Ogun State',
@@ -21,26 +21,40 @@ const quizQuestions = [
         d: 'Osun State',
         answer: 'c'
     }, {
-        question: 'How many courses did I write this semester?',
-        a: '6',
-        b: '7',
-        c: '5',
-        d: '3',
-        answer: 'd'
-    }, {
-        question: 'What did I get into Unilorin?',
+        question: 'What year did I get into University of Ilorin?',
         a: '2017',
         b: '2020',
         c: '2019',
         d: '2018',
         answer: 'a'
     }, {
-        question: 'What programming language do I write in?',
+        question: 'What programming language(s) do I write in?',
         a: 'PHP',
         b: 'Python',
         c: 'JavaScript',
         d: 'a & c',
         answer: 'd'
+    }, {
+        question: 'What stacks do I use?',
+        a: 'PHP, React, Typescript',
+        b: 'Python, Vue',
+        c: 'JavaScript, React Native, Node.js, Next.js',
+        d: 'a & c',
+        answer: 'd'
+    }, {
+        question: 'What databases can I work with?',
+        a: 'PostreSQL',
+        b: 'MariaDB, MySQL',
+        c: 'MongoDB',
+        d: 'b & c',
+        answer: 'd'
+    }, {
+        question: 'How many years of experience do I have in development?',
+        a: 7,
+        b: 5,
+        c: 6,
+        d: 8,
+        answer: 'b'
     }
 ];
 
